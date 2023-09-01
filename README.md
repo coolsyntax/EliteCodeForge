@@ -40,3 +40,7 @@ module.exports = {
       autoprefixer: {},
   }
 }
+
+4. A common error is using 
+import Tilt from ""; instead of
+import { Tilt } from "";
