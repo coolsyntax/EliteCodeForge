@@ -46,7 +46,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "C++ Developer",
       icon: mobile,
     },
     {
