@@ -44,3 +44,31 @@ module.exports = {
 4. A common error is using 
 import Tilt from ""; instead of
 import { Tilt } from "";
+
+## Setting up emailjs service
+
+1. Create an account on emailjs.com
+2. Add new service
+3. Click gmail
+4. Connect your account
+5. Sign in with gmail
+6. Create service
+7. Go to email template
+8. Leave everything as it is and click save
+9. Go to your template -> settings 
+10. copy template id
+11. Go to email services and click Gmail
+12. Copy service id
+13. Go to your name
+14. Copy public key
+15. Update these values in contact.jsx
+
+## How to change icons and images
+
+1. Go to assets 
+2. Change the fie you want to change
+3. Go to index.js in assets folder
+4. Change import Your_File_Name from "File address"
+5. Change export to your_file_name
+6. Go to constants/index.js
+7. Change the content accordingly
