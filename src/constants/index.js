@@ -19,9 +19,9 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
+    PCAutomation,
+    MusicPlugin,
+    SiteStatix,
     threejs,
   } from "../assets";
   
@@ -122,7 +122,7 @@ import {
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developed and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
@@ -198,12 +198,12 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "PC Automation for Blinds",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Developed a Python-based project that harnesses the power of AI to aid visually impaired users by enabling seamless navigation and access to computer applications.",
       tags: [
         {
-          name: "react",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
@@ -211,53 +211,53 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Automation",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: PCAutomation,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Audio Plugin Using C++",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Our C++ audio plugin offers effortless audio manipulation, unlocking a realm of creative possibilities. This blend of technology and art ensures an immersive and delightful audio experience for users.",
       tags: [
         {
-          name: "react",
+          name: "C++",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "JUCE Framework",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Music App",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: MusicPlugin,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "SiteStatix",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "SiteStatix is your go-to open-source web monitoring application. It's designed to automate monitoring tasks, from tracking visual site changes to evaluating XPath and APIs.",
       tags: [
         {
-          name: "nextjs",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Spring",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "PostgreSQL",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: SiteStatix,
       source_code_link: "https://github.com/",
     },
   ];
